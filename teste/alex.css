@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .top-bar {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+  }
+  
+  .back-btn {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+  }
+  
+  .lojas-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .saldo {
+    position: absolute;
+    right: 60px;
+    text-align: right;
+    font-size: 14px;
+  }
+  
+  .user-icon {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+  }
+  
+  .produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 30px;
+    justify-items: center;
+  }
+  
+  .produto-card {
+    background: linear-gradient(to bottom, #d9d9d9, #7b8bd2);
+    border-radius: 12px;
+    width: 220px;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .produto-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+  }
+  
+  .info {
+    padding: 12px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info span {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  button {
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3f51b5;
+  }
+  
